@@ -9,15 +9,15 @@ int main()
 	switch(n%2==0)
 	{
 		case 0:
-		{
-			printf("odd");
-			break;
-	    }
+			{
+				printf("odd");
+				break;
+			}
 		case 1:
-		{
-			printf("Even");
-		    break;
-	    }
+			{
+				printf("Even");
+				break;
+			}
 	}
 	return 0;
 }
