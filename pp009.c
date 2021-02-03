@@ -5,13 +5,9 @@
 int iseven(int x)
 {
 	if(x%2==0)
-	{
-		return 1;
-	}
+	return 1;
 	else
-	{
-		return 0;
-	}
+	return 0;
 }
 void main()
 {
@@ -20,11 +16,7 @@ void main()
 	scanf("%d",&n);
 	x=iseven(n);
 	if(x==1)
-	{
-		printf("Even");
-	}
+	printf("Even");
 	else
-	{
-		printf("Odd");
-	}
+	printf("Odd");
 }
