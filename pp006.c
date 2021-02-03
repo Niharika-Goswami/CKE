@@ -11,6 +11,7 @@ int main()
 		printf("Enter %d number: ",i+1);
 		scanf("%d",&n[i]);
 	}
+	printf("The even numbers in given numbers are: ");
 	for(i=0;i<=9;i++)
 	{
 		printf(" %d ",n[i]);
