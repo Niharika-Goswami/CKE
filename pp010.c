@@ -10,12 +10,8 @@ int main()
 	scanf("%d",&a);
 	x=iseven(a);
 	if(x==1)
-	{
-		printf("Even");
-	}
+	printf("Even");
 	else
-	{
-		printf("Odd");
-	}
+	printf("Odd");
 	return 0;
 }
