@@ -7,12 +7,8 @@ int main()
 	printf("Enter the number: ");
 	scanf("%d",&a);
 	if(a&1==0)
-	{
-		printf("Odd");
-	}
+	printf("Odd");
 	else
-	{
-		printf("Even");
-	}
+	printf("Even");
 	return 0;
 }
